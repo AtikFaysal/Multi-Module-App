@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+apply from: "$rootDir/android-config-dependencies.gradle"
+dependencies {
+    implementation AppDep.appCompat
+    implementation AppDep.activity
+    implementation AppDep.recyclerview
+    implementation AppDep.liveData
+    implementation AppDep.viewModel
+    implementation AppDep.rxJava3
+    implementation AppDep.rxJava3Android
+    implementation AppDep.material
+    implementation AppDep.preference
+}

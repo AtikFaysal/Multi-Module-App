@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "DemoApp"
+include ':app'
+include ':feature:list'
+include ':navigation'
+include ':core:di'
+include ':core:api'
+include ':model:apiresponse'
+include ':model:entity'
+include ':data'
+include ':domain'
+include ':common'
+include ':feature:details'
